@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "720805154649",
+    "project_id": "latlong-6793b",
+    "storage_bucket": "latlong-6793b.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:720805154649:android:72ae5bacf63e9bbaef4648",
+        "android_client_info": {
+          "package_name": "com.latlong"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAHi0QV11k1pYscOFWu7TGmQhRGWb6S9SE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
