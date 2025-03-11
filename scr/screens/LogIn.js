@@ -137,15 +137,10 @@ const styles = StyleSheet.create({
     paddingVertical: '4%',
   },
   inputMainCard: {
-    // borderWidth: 1,
-    // borderColor: '#FFF',
     gap: 10,
   },
   btnCard: {
-    // borderWidth: 1,
-    // borderColor: '#FFF',
     marginTop: '30%',
-    // padding: '3%',
     alignItems: 'center',
     gap: 15,
   },

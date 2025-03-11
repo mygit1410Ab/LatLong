@@ -49,7 +49,7 @@ const styles = StyleSheet.create({
     backgroundColor: '#FFF',
     flexDirection: 'row',
     borderBottomWidth: 1,
-    borderColor: '#E0E0E0', // Light gray border
+    borderColor: '#E0E0E0',
     height: Height * 0.08,
   },
   logoStyle: {
@@ -62,8 +62,6 @@ const styles = StyleSheet.create({
     tintColor: 'gray',
   },
   logoutCard: {
-    // borderWidth: 1,
-    // borderColor: '#FFF',
     padding: 10,
     right: '5%',
     position: 'absolute',

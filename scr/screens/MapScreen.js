@@ -9,8 +9,6 @@ const MapScreen = () => {
   return (
     <MapView
       style={styles.mapStyle}
-      // showsUserLocation={true}
-      // onPress={handleMapPress}
       initialRegion={{
         latitude: item?.latitude,
         longitude: item?.longitude,

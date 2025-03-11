@@ -35,7 +35,6 @@ const HomeScreen = () => {
         if (doc.exists) {
           const prevLocation = doc.data()?.location;
 
-          // Check if location has changed before updating Firestore
           if (
             prevLocation?.latitude !== newLocation.latitude ||
             prevLocation?.longitude !== newLocation.longitude
@@ -56,7 +55,7 @@ const HomeScreen = () => {
     (retries = 3) => {
       const options = {
         enableHighAccuracy: true,
-        timeout: 30000, // Increased timeout to 30 seconds
+        timeout: 30000,
         maximumAge: 10000,
       };
 
@@ -78,7 +77,7 @@ const HomeScreen = () => {
 
         if (retries > 0) {
           console.log(`Retrying... ${retries} attempts left`);
-          getCurrentLocation(retries - 1); // Retry fetching location
+          getCurrentLocation(retries - 1);
         } else {
           let errorMessage = 'Failed to get your location.';
           switch (error.code) {
@@ -129,7 +128,6 @@ const HomeScreen = () => {
         setLoading(false);
       }
     } else {
-      // For iOS, directly call getCurrentLocation
       getCurrentLocation();
     }
   }, [getCurrentLocation]);

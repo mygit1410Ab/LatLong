@@ -35,6 +35,5 @@ const styles = StyleSheet.create({
   animation: {
     width: Width * 0.8,
     height: Width * 0.8,
-    // backgroundColor: 'red',
   },
 });

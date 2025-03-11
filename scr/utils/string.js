@@ -22,19 +22,9 @@ export const strings = {
     goToSignUp: 'Not have an account?',
     forgotPsw: 'Forgot your password?',
   },
-  // forPwd: {
-  //   header: 'Forgot password',
-  //   details:
-  //     'Please, enter your email address. You will receive a link to create a new password via email.',
-  // },
+
   emptyCard: {
     header: 'No locations are marked?',
     details: 'Tap + to add your locations.',
   },
-  // addTaskScreen: {
-  //   header: 'ADD YOUR TASK',
-  // },
-  // upDateTaskScreen: {
-  //   header: 'UPDATE YOUR TASK',
-  // },
 };

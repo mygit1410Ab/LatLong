@@ -12,8 +12,6 @@ const CoustomTextInput = ({
   errorMess,
   onFocus,
 }) => {
-  // console.log('onErro====>', onErro);
-
   return (
     <View style={[styles.Card]}>
       <Text style={textStyle.headerSmall}>{lable}</Text>
@@ -40,10 +38,7 @@ const CoustomTextInput = ({
 export default CoustomTextInput;
 
 const styles = StyleSheet.create({
-  Card: {
-    // borderWidth: 1,
-    // borderColor: '#FFF',
-  },
+  Card: {},
   inputStyle: {
     borderWidth: 2,
     borderColor: '#E50046',

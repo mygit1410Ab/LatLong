@@ -10,7 +10,6 @@ const MarkersScreen = () => {
   const [userLocation, setUserLocation] = useState(null);
   const userId = auth().currentUser?.uid;
 
-  // Fetch user's current location
   useEffect(() => {
     const fetchUserLocation = () => {
       Geolocation.getCurrentPosition(
@@ -34,7 +33,6 @@ const MarkersScreen = () => {
     fetchUserLocation();
   }, []);
 
-  // Fetch markers from Firestore
   useEffect(() => {
     const fetchMarkers = async () => {
       if (!userId) return;
@@ -60,7 +58,6 @@ const MarkersScreen = () => {
     fetchMarkers();
   }, [userId]);
 
-  // Calculate the initial region
   const initialRegion =
     markers.length > 0
       ? {
@@ -77,8 +74,8 @@ const MarkersScreen = () => {
           longitudeDelta: 0.05,
         }
       : {
-          latitude: 37.78825, // Default latitude
-          longitude: -122.4324, // Default longitude
+          latitude: 37.78825,
+          longitude: -122.4324,
           latitudeDelta: 0.05,
           longitudeDelta: 0.05,
         };
@@ -106,7 +103,7 @@ const MarkersScreen = () => {
               longitude: userLocation.longitude,
             }}
             title="Your Location"
-            pinColor="blue" // Customize the marker color for the user's location
+            pinColor="blue"
           />
         )}
       </MapView>

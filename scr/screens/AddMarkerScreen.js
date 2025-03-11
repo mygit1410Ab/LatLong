@@ -84,7 +84,6 @@ const AddMarkerScreen = () => {
   };
 
   const modalHandler = () => {
-    // console.log('Modal handler');
     setShowModal(true);
   };
 

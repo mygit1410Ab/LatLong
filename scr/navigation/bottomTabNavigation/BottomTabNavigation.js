@@ -72,8 +72,6 @@ const styles = StyleSheet.create({
   tabContainer: {
     height: Height * 0.08,
     backgroundColor: '#FFF',
-    // borderTopWidth: 1,
-    // borderColor: '#FFF',
   },
   labelStyle: {
     fontSize: 13,

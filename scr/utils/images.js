@@ -30,5 +30,4 @@ export const images = {
     tick: require('../assets/images/Tick.png'),
     mylocation: require('../assets/images/location.png'),
   },
-  // addLocationScreen: require('../assets/images/Tick.png'),
 };

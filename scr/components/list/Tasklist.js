@@ -14,7 +14,6 @@ const Tasklist = () => {
   const [loading, setLoading] = useState(false);
   const [refreshing, setRefreshing] = useState(false);
 
-  // Fetch markers from Firestore
   const fetchMarkers = useCallback(async () => {
     setLoading(true);
     const userId = auth().currentUser?.uid;
@@ -53,7 +52,6 @@ const Tasklist = () => {
     fetchMarkers();
   }, [fetchMarkers]);
 
-  // Refresh markers
   const onRefresh = useCallback(async () => {
     setRefreshing(true);
     await fetchMarkers();

@@ -24,8 +24,9 @@ const CoustomPasswordBox = ({
   const [hide, setHide] = useState(true);
 
   const hideHandler = () => {
-    console.log('pressed====>'); // Check if this logs
-    setHide(prev => !prev); // Toggle between true/false
+    console.log('pressed====>');
+    setHide(prev => !prev);
+    false;
   };
 
   return (
@@ -67,11 +68,7 @@ const styles = StyleSheet.create({
     borderRadius: 5,
   },
   inputStyle: {
-    // borderWidth: 2,
-    // color: '#FFF',
     paddingHorizontal: 5,
-    // borderTopLeftRadius: 5,
-    // borderBottomLeftRadius: 5,
     width: '80%',
     height: '100%',
   },
@@ -79,8 +76,6 @@ const styles = StyleSheet.create({
     height: 25,
     width: 25,
     tintColor: 'gray',
-    // borderWidth: 1,
-    // borderColor: '#fff',
   },
   eyeCard: {
     width: '20%',

@@ -17,8 +17,6 @@ export default ListHeaderComponent;
 
 const styles = StyleSheet.create({
   headerCard: {
-    // borderWidth: 1,
-    // borderColor: '#FFF',
     flexDirection: 'row',
     marginTop: '10%',
     width: '100%',

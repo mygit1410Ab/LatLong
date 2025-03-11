@@ -2,11 +2,10 @@ import {StyleSheet} from 'react-native';
 import Colors from './color';
 
 export const textStyle = StyleSheet.create({
-  // Header styles
   headerLarge: {
     fontSize: 32,
     fontWeight: 'bold',
-    color: Colors.black, // Primary text color
+    color: Colors.black,
     marginBottom: 20,
   },
   headerMedium: {
@@ -22,7 +21,6 @@ export const textStyle = StyleSheet.create({
     marginBottom: 6,
   },
 
-  // Subheader styles
   subHeaderLarge: {
     fontSize: 20,
     fontWeight: '600',
@@ -36,7 +34,6 @@ export const textStyle = StyleSheet.create({
     marginBottom: 6,
   },
 
-  // Paragraph styles
   paragraph: {
     fontSize: 14,
     fontWeight: '400',
@@ -59,7 +56,6 @@ export const textStyle = StyleSheet.create({
     marginBottom: 10,
   },
 
-  // Caption styles
   caption: {
     fontSize: 12,
     fontWeight: '400',
@@ -75,15 +71,13 @@ export const textStyle = StyleSheet.create({
     marginBottom: 4,
   },
 
-  // Link styles
   link: {
     fontSize: 14,
     fontWeight: '500',
-    color: '#007BFF', // Typical link color
+    color: '#007BFF',
     textDecorationLine: 'underline',
   },
 
-  // Button text styles
   buttonText: {
     fontSize: 16,
     fontWeight: '600',
@@ -97,7 +91,6 @@ export const textStyle = StyleSheet.create({
     textAlign: 'center',
   },
 
-  // Overline style
   overline: {
     fontSize: 10,
     fontWeight: '400',
@@ -107,11 +100,10 @@ export const textStyle = StyleSheet.create({
     marginBottom: 4,
   },
 
-  // Error text styles
   errorText: {
     fontSize: 14,
     fontWeight: '400',
-    color: Colors.error, // Typical error color
+    color: Colors.error,
     marginBottom: 6,
   },
 });
